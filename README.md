@@ -13,7 +13,7 @@ curl get.docker.io | sudo sh -x
 ## Installation
 
 ```
-$ git clone https://github.com/ricardoamaro/docker-drupal-nginx.git
+$ git clone https://github.com/klokie/docker-drupal-nginx.git
 $ cd docker-drupal-nginx
 $ sudo docker build -t="docker-drupal-nginx" .
 ```
@@ -91,7 +91,7 @@ Feel free to fork and contribute to this code. :)
 
 ## Authors
 
-Created and maintained by [Ricardo Amaro][author] (<mail@ricardoamaro.com>)
+Forked from/based on the [docker-drupal-nginx](https://github.com/ricardoamaro/docker-drupal-nginx) project by [Ricardo Amaro](https://github.com/ricardoamaro) (<mail@ricardoamaro.com>)
 
 ## License
 GPL v3
