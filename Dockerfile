@@ -1,6 +1,6 @@
 FROM    ubuntu:latest
 MAINTAINER Ricardo Amaro <mail_at_ricardoamaro.com>
-RUN echo "deb http://archive.ubuntu.com/ubuntu raring main restricted universe multiverse" > /etc/apt/sources.list
+RUN echo "deb http://archive.ubuntu.com/ubuntu trusty main restricted universe multiverse" > /etc/apt/sources.list
 RUN apt-get update
 #RUN apt-get -y upgrade
 
